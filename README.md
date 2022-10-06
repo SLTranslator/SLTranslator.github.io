@@ -12,4 +12,4 @@ Faria Chouwdhuri:
 
 
 GitHub Pages Link
-
+https://sltranslator.github.io/README.txt
