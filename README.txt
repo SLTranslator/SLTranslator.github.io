@@ -6,9 +6,9 @@ https://sltranslator.github.io
 GitHub Accounts for Each Team Member
 David Malek: MalekDavid01
 Raiyan Aziz: RaiyanAziz55
-Nahiyan Ishtiaque:
+Nahiyan Ishtiaque:nahiyani
 Tyler Desmarais:
-Faria Chouwdhuri:
+Faria Chouwdhuri: fchow17
 
 
 GitHub Pages Link
