@@ -7,7 +7,7 @@ GitHub Accounts for Each Team Member
 David Malek: MalekDavid01
 Raiyan Aziz: RaiyanAziz55
 Nahiyan Ishtiaque:nahiyani
-Tyler Desmarais: Tyler-Desmarais
+Tyler Desmarais:Tyler-Desmarais
 Faria Chowdhury: fchow17
 
 
