@@ -12,14 +12,14 @@ body{
 label.logo{
    color: #ffffff;
    font-size: 40px;
-   line-height: 75px;
+   line-height: 80px;
    padding: 0 100px;
    font-weight: bold;
 }
 
 nav{
    background: #003087; 
-   height: 75px;
+   height: 80px;
    width: 100%;
    align-items: center;
    justify-content: space-around;
@@ -33,7 +33,7 @@ nav ul{
 
 nav ul li{
    display: inline-block;
-   line-height: 75px;
+   line-height: 80px;
    margin: 0 7px; 
 }
 
