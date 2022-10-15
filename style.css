@@ -1,0 +1,67 @@
+*{
+   padding: 0;
+   margin: 0;
+   text-decoration: none;
+   box-sizing: border-box; 
+}
+
+body{
+    font-family: 'Antipasto Pro', sans-serif;
+}
+
+label.logo{
+   color: #ffffff;
+   font-size: 40px;
+   line-height: 75px;
+   padding: 0 100px;
+   font-weight: bold;
+}
+
+nav{
+   background: #003087; 
+   height: 75px;
+   width: 100%;
+   align-items: center;
+   justify-content: space-around;
+   float: right;
+}
+
+nav ul{
+   float: right;
+   margin-right: 125px;
+}
+
+nav ul li{
+   display: inline-block;
+   line-height: 75px;
+   margin: 0 7px; 
+}
+
+nav ul li a{
+    position: relative;
+    text-decoration: none;
+    font-family: 'Antipasto Pro', sans-serif;
+    color: #a0a0a0;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    padding: 7px 13px;
+}
+
+nav ul li a::after{
+   content: ""; 
+   position: absolute;
+   background-color: #ffffff;
+   height: 2.5px;
+   width: 0;
+   left: 0;
+   bottom: -7px;
+   transition: 0.25s;
+}
+
+nav ul li a:hover{
+    color: #ffffff;
+}
+
+nav ul li a:hover::after{
+    width: 100%;
+}
