@@ -1,0 +1,40 @@
+
+ /* Translate Page: Translation option designs*/
+ .typeTranslate 
+ {
+     background-color: DodgerBlue;
+     border: none;
+     color: white;
+     padding: 25px 40px 25px 40px;
+     font-size: 16px;
+     cursor: pointer;
+ }
+ .recordTranslate 
+ {
+     background-color: DodgerBlue;
+     border: none;
+     color: white;
+     padding: 25px 40px 25px 40px;
+     font-size: 16px;
+     cursor: pointer;
+ }
+  
+  .typeTranslate:hover { /*Type to Translate colors*/
+    background-color: #cbd1d5;
+    color: #fff;
+  }
+  .recordTranslate:hover { /*Record to Translate colors*/
+    background-color: #cbd1d5;
+    color: #db3434;
+  }
+ 
+  .typetoTranslate-pos{
+    margin: auto;
+    left: 450px
+  }
+  .recordToTranslate-pos{ 
+    margin: auto;
+    left: 480px
+  }
+ 
+  /* END Translate Page: Translation option designs*/
