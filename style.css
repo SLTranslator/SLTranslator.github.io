@@ -3,10 +3,15 @@
    margin: 0;
    text-decoration: none;
    box-sizing: border-box; 
+
+}
+
+.main{
+   height:100%;
 }
 
 .logo{
-   position: fixed;
+   position: relative;
    height: 150px;
    width: 150px;
    left:50px;
@@ -21,10 +26,11 @@
    font-size: 65px;
 }
 
+
 #homeBack{
    background-image: url(mockups/homeBackground3.jpg);
    background-size: 47.5%;
-   height: 720px;
+   height: 100%;
    background-repeat: no-repeat;
 }
 
@@ -44,24 +50,18 @@
    font-weight: 700;
    outline: none;
    position: relative;
-   -webkit-transition: all 0.3s;
-   -moz-transition: all 0.3s;
-   transition: all 0.3s;
+
  }
  
  .btn:after {
    content: '';
    position: absolute;
-   z-index: -1;
-   -webkit-transition: all 0.3s;
-   -moz-transition: all 0.3s;
-   transition: all 0.3s;
+  
  }
  
  /* Pseudo elements for icons */
  .btn:before {
    font-family: 'FontAwesome';
-   speak: none;
    font-style: normal;
    font-weight: normal;
    font-variant: normal;
@@ -87,14 +87,14 @@
  }
 
  .btn-1-pos{
-   position: fixed;
-   left: 725px;
-   top: 500px;
+   position: relative;
+   left: 50px;
+   top: 400px;
  }
  .btn-2-pos{
-   position: fixed;
-   left: 1050px;
-   top: 500px;
+   position: relative;
+   left: 25px;
+   top: 400px;
  }
 
 
@@ -105,7 +105,7 @@
  
  .btn-1:active {
    background: #2980b9;
-   top: 2px;
+
  }
  
  .btn-1:before {
@@ -117,13 +117,18 @@
    font-size: 140%;
    width: 60px;
  }
- .icon-info:before {
+ .icon-info1:before {
+   content: "\f0a4";
+ }
+ 
+ .icon-info2:before {
    content: "\f05a";
  }
  /*The Button styling for the home buttons ends here*/
 
-body{
+html, body{
     font-family: 'Antipasto Pro', sans-serif;
+    height: 100%;
 }
 
 label.logo{
@@ -183,12 +188,12 @@ nav ul li a:hover::after{
     width: 100%;
 }
 
-
-
-
 .container {
+   position: relative;
+   min-height: 100%;
    max-width: 1200px;
    margin: auto;
+   overflow: scroll;
 }
 
 .row{
@@ -201,6 +206,9 @@ ul {
 }
 
 .footer {
+   position: relative;
+   bottom: 10;
+   width:100%;
    background-color: #003087;
    padding: 100px 0;
    
