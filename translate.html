@@ -20,11 +20,85 @@
             align-items: center
         }
 
-        h4 {color:#a0a0a0}   
+        input[type=text], select, textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            resize: vertical;
+        }
+
+        label {
+            padding: 12px 12px 12px 0;
+            display: inline-block;
+        }
+
+        input[type=Translate] {
+            margin-top: 20px;
+            background-color: Gray;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+            float: right;
+        }
+
+        input[type=Translate]:hover {
+            background-color: LightGray;
+        }
+
+        div.translateBox {
+            border-radius: 20px;
+            width: 50%;
+            border: none;
+            margin-top:1rem;
+            margin-left:1rem;
+            margin-bottom:1rem;
+            background-color: DodgerBlue;
+            padding: 1rem;
+            height: 25%;
+            box-sizing: border-box;
+            position:relative;
+        }
+
+        .col-25 {
+            float: left;
+            width: 15%;
+            margin-top: 6px;
+        }
+
+        .col-aligned {
+            float: left;
+            margin-top: 6px;
+        }
+
+        /* Clear floats after the columns */ 
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+
+        /*Output box*/
+        div.OutputBox {
+
+            border-radius: 20px;
+            width: 50%;
+            border: none;
+            margin-top: 1rem;
+            margin-left: 1rem;
+            background-color: rgb(164, 169, 174);
+            padding: 1rem;
+            height: 25%;
+        }
+
     </style>
 </head>
+
 <body>
-    <div class="main">
+    <div class="main" style="height: 200%">
     <nav>
         <img class="logo" src="mockups/logo.png">
         <ul>
@@ -36,13 +110,49 @@
         </ul>
     </nav>
 
-    <h1 style="color:#003087; text-align:center; padding-top:100px; font-size:50px">Translate now!</h1>
-    <h2 style="color:#003087; text-align:center; padding-top:10px; font-size:30px">Choose how you wish to translate</h1>
+    <h1 style="color:#003087; text-align:left; margin-left:1rem; padding-top:100px; font-size:50px">Translate now!</h1>
+    <h2 style="color:#003087; text-align:left; margin-left:1rem; padding-top:10px; font-size:30px">Choose how you wish to translate</h1>
 
-    <button class="btn typeTranslate typeTranslate:hover typetoTranslate-pos"><i class="fa fa-keyboard"></i> Type to Translate</button>
-    <button class="btn recordTranslate recordTranslate:hover recordToTranslate-pos"><i class="fa fa-video"></i> Record to Translate</button>
+    <button class="typeTranslate typeTranslate:hover"><i class="fa fa-keyboard"></i> Type to Translate</button>
+    <button class="recordTranslate recordTranslate:hover"><i class="fa fa-video"></i> Record to Translate</button>
     
+    <div class="translateBox">
+
+        <div class="row" >
+        
+          <div class="col-25">
+            <label style="color:white" for="Language">LANGUAGE</label>
+          </div>   
+          <div class = "col-aligned">
+            <select id="Language" name="Language">
+              <option value="Arabic">Arabic</option>
+              <option value="English">English</option>
+              <option value="French">French</option>
+
+            </select>
+           </div>
+        </div>
+        
+        <div class="row">
+          
+            <textarea id="Translate" name="Translate" placeholder="Type to translate" style="height:200px; margin-top:10px"></textarea>
+            
+        </div>
+         
+        
+        <div class="row">
+          <input type="Translate" value="Translate">
+        </div> 
+        
     </div>
+    <h2 style="color:#003087; text-align:left; margin-left:1rem; padding-top:10px; font-size:30px">Translation</h1>
+    <div class="OutputBox"></div>
+    </div>
+    
+    
+
+
+     <!--Footer --> 
     <footer class = "footer">
         <div class = "container">
             <div class = "row">
@@ -80,8 +190,7 @@
             </div>
         </div>
     </footer>
+    <!--END footer-->
 </body>
-
-
 
 </html>

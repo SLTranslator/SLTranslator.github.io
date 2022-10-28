@@ -3,10 +3,13 @@
  .typeTranslate 
  {
      background-color: DodgerBlue;
-     border: none;
+     border: 1rem;
+     margin: 1rem;
      color: white;
-     padding: 25px 40px 25px 40px;
+     padding: 1rem 1rem;
      font-size: 16px;
+     border-radius: 20px;
+     text-align: center;
      cursor: pointer;
  }
  .recordTranslate 
@@ -14,27 +17,19 @@
      background-color: DodgerBlue;
      border: none;
      color: white;
-     padding: 25px 40px 25px 40px;
+     padding: 1rem 1rem;
      font-size: 16px;
+     border-radius: 20px;
      cursor: pointer;
  }
   
   .typeTranslate:hover { /*Type to Translate colors*/
     background-color: #cbd1d5;
-    color: #fff;
+    color: DodgerBlue;
   }
   .recordTranslate:hover { /*Record to Translate colors*/
     background-color: #cbd1d5;
     color: #db3434;
-  }
- 
-  .typetoTranslate-pos{
-    margin: auto;
-    left: 450px
-  }
-  .recordToTranslate-pos{ 
-    margin: auto;
-    left: 480px
   }
  
   /* END Translate Page: Translation option designs*/
