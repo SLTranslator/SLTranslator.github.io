@@ -33,3 +33,11 @@
   }
  
   /* END Translate Page: Translation option designs*/
+
+  .Sign-Letter{
+    background-image: url(mockups/SIGNTOALPHA.png);
+    background-size: 30%;
+    background-position-x: right;
+    background-position-y: center;
+    background-repeat: no-repeat;
+  }
