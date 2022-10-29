@@ -94,61 +94,91 @@
             height: 25%;
         }
 
+
+
+        /*Record Translation*/
+        div.Recording {
+
+            border-radius: 20px;
+            width: 50%;
+            border: none;
+            margin-top: 1rem;
+            margin-left: 1rem;
+            background-color: rgb(188, 0, 0);
+            padding: 1rem;
+            height: 50%;
+        }
+
     </style>
 </head>
 
 <body>
     <div class="main; Sign-Letter" style="height: 200%">
-    <nav>
+        <nav>
         <img class="logo" src="mockups/logo.png">
-        <ul>
-            <li><a href = "home.html"> Home </a></li>
-            <li><a href = "translate.html"> Translate </a></li>
-            <li><a href = "pricing.html"> Pricing </a></li>
-            <li><a href = "about.html"> About </a></li>
-            <li><a href = "contact.html"> Contact </a></li>
-        </ul>
-    </nav>
-    <h1 style="color:#003087; text-align:left; margin-left:1rem; padding-top:100px; font-size:50px">Translate now!</h1>
-    <h2 style="color:#003087; text-align:left; margin-left:1rem; padding-top:10px; font-size:30px">Choose how you wish to translate</h1>
-    <h2 style="color:#003087; text-align:right; margin-left:1rem; margin-right:1 rem; font-size:30px">Letters in Sign Language for reference</h1>
-    <button class="typeTranslate typeTranslate:hover"><i class="fa fa-keyboard"></i> Type to Translate</button>
-    <button class="recordTranslate recordTranslate:hover"><i class="fa fa-video"></i> Record to Translate</button>
-    
-    <div class="translateBox">
-
-        <div class="row" >
+            <ul>
+                <li><a href = "home.html"> Home </a></li>
+                <li><a href = "translate.html"> Translate </a></li>
+                <li><a href = "pricing.html"> Pricing </a></li>
+                <li><a href = "about.html"> About </a></li>
+                <li><a href = "contact.html"> Contact </a></li>
+            </ul>
+        </nav>
+        <h1 style="color:#003087; text-align:left; margin-left:1rem; padding-top:100px; font-size:50px">Translate now!</h1>
+        <h2 style="color:#003087; text-align:left; margin-left:1rem; padding-top:10px; font-size:30px">Choose how you wish to translate</h2>
+        <h2 style="color:#003087; text-align:right; margin-left:1rem; margin-right:1 rem; font-size:30px">Letters in sign language for reference</h2>
+        <button type = "button" class="typeTranslate typeTranslate:hover typeTranslate:active" onclick="showType()"><i class="fa fa-keyboard"></i> Type to Translate</button>
+        <button type = "button" class="recordTranslate recordTranslate:hover recordTranslate:active" onclick="showRecord()"><i class="fa fa-video"></i> Record to Translate</button>
         
-          <div class="col-25">
-            <label style="color:white" for="Language">LANGUAGE</label>
-          </div>   
-          <div class = "col-aligned">
-            <select id="Language" name="Language">
-              <option value="Arabic">Arabic</option>
-              <option value="English">English</option>
-              <option value="French">French</option>
+        <div id="Type" style="display:none;" class="translateBox">
 
-            </select>
-           </div>
-        </div>
-        
-        <div class="row">
-          
-            <textarea id="Translate" name="Translate" placeholder="Type to translate" style="height:200px; margin-top:10px"></textarea>
+            <div class="row" >
             
+            <div class="col-25">
+                <label style="color:white" for="Language">LANGUAGE</label>
+            </div>   
+            <div class = "col-aligned">
+                <select id="Language" name="Language">
+                <option value="Arabic">Arabic</option>
+                <option value="Bengali">Bengali</option>
+                <option value="Chinese">Chinese</option>
+                <option value="English">English</option>
+                <option value="French">French</option>
+                <option value="German">German</option>
+                <option value="Spanish">Spanish</option>
+                <option value="Russian">French</option>
+
+
+                </select>
+            </div>
+            </div>
+            
+            <div class="row">
+            
+                <textarea id="Translate" name="Translate" placeholder="Type to translate" style="height:200px; margin-top:10px"></textarea>
+                
+            </div>
+            
+            <div class="row">
+                <button type="button" class="TranslationButton" onclick="showTranslation()">Translate</Button>
+            </div>  
         </div>
-         
-        
-        <div class="row">
-          <input type="Translate" value="Translate">
-        </div> 
-        
-    </div>
-    <h3 style="color:#003087; text-align:left; margin-left:1rem; padding-top: 1rem; font-size:20px">Translation</h1>
-    <div class="OutputBox"></div>
-    </div>
+        <div id="Output" style="display:none;" class="OutputBox">
+            <h3 style="color:#003087; text-align:left; margin-left:1rem; padding-top: 1rem; font-size:20px">Translation</h3>
+            <h4 style="color:#003087; text-align:left; margin-left:1rem; padding-top: 1rem;">Currently Unavailable</h4>
+        </div>
+
+        <div id="Record" style="display:none;" class="Recording">
+            <i  class="fa fa-video"></i>        
+        </div>
+
+
+
+    </div>   <!--Main ends here-->
     
+    <h1 style="color:#003087; text-align:left; text-align:center; margin-left:1rem; padding-bottom: 1rem; font-size:50px">Check out the <b><i>Pricing</i></b> page to get more features!</h1>
     
+    </div>
 
 
      <!--Footer --> 
