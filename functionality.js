@@ -35,9 +35,3 @@ function hideTranslation(){
       x.style.display = "none";
     }
 }
-
-//Homepage Functions onclick="location.href='pageurl.html';"
-function goToTranslate(){
-  window.location("https://www.google.com");
-  window.location.href = "https://www.google.com";
-}
