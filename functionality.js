@@ -25,6 +25,7 @@ function showType(){
       z.style.display = "none";
     } else {
       x.style.display = "none";
+      z.style.display = "none";
     }
 }
 function hideTranslation(){
@@ -35,6 +36,3 @@ function hideTranslation(){
       x.style.display = "none";
     }
 }
-
-
-
