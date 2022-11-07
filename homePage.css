@@ -1,4 +1,3 @@
-
 *{
    padding: 0;
    margin: 0;
@@ -7,38 +6,57 @@
 
 }
 
-.main{
-   height:100%;
+@font-face {
+   font-family: 'megan';
+   src: url('MegandemofontRegular-axGea.otf')
+   format("opentype");
 }
+
+
 
 .logo{
    position: relative;
-   height: 150px;
-   width: 150px;
-   left:50px;
-   top:-30px;
+   height: 220px;
+   width: 220px;
+   left: 50px;
+   top:-50px;
 }
 
 #text{ 
    position: relative;
-   left: 725px;
+   bottom: 200px;
+   left: 650px;
    top: 50px;
-   font-family:'Times New Roman', Times, serif;
-   font-size: 65px;
+   color: #fff;
+   font-family: 'megan';
+   font-size: 80px;
 }
 
+#intro{
+   position:relative;
+   padding-left: 350px;
+   padding-right: 350px;
+   left: 325px;
+   top: 100px;
+   text-align: center;
+   font-size: 25px;
+   font-family: 'megan';
+   color: white;
+}
 
 #homeBack{
-   background-image: url(mockups/homeBack4-4.jpg);
+   background-image: url(/mockups/homeBack4-4.jpg);
    background-size: 100%;
    height: 100%;
    background-repeat: no-repeat;
+   overflow-x: hidden;
 }
 
 
 
 /* All the button styling for homepage begins here*/
 .btn {
+   transition: all .5s ease;
    border: none;
    font-family: 'Lato';
    font-size: inherit;
@@ -78,26 +96,27 @@
  /* Icon separator */
  .btn-sep {
    padding: 25px 60px 25px 120px;
+
  }
  
  .btn-sep:before {
-   background: rgba(0,0,0,0.15);
+   background: rgba(157, 15, 15, 0.15);
  }
  
  .btn-1 {
-   background: #3498db;
-   color: #fff;
+   background: rgb(255, 212, 196);
+   color: white
  }
 
  .btn-1-pos{
    position: relative;
-   left: 50px;
-   top: 400px;
+   left: 700px;
+   top: 150px;
  }
  .btn-2-pos{
    position: relative;
-   left: 25px;
-   top: 400px;
+   left: 700px;
+   top: 150px;
  }
 
 
