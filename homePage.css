@@ -162,12 +162,13 @@ label.logo{
 }
 
 nav{
-   
+   animation: fadeDown 1000ms forwards;
    height: 80px;
    width: 100%;
    align-items: center;
    justify-content: space-around;
    float: right;
+   opacity: 0;
 }
 
 nav ul{
@@ -310,4 +311,17 @@ ul {
    .footer-col{
       width: 100%;
    }
+}
+
+@keyframes fadeDown {
+   from {
+      opacity: 0;
+      transform: translateY(-20px);
+   }
+
+   to {
+      opacity: 1;
+      transform: translateX(0px);
+   }
+   
 }
