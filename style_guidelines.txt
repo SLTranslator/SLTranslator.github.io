@@ -1,0 +1,13 @@
+Color theme: Main color (Blue) contrasting with different shades of white
+STL is a translation page made to be used worldwide in different countries (can be used in different languages). SLT is a globally targeted software that aims to make communication with sign language easier. 
+Our choice in the color theme of our product is blue. According to:
+https://www.irishdeafsociety.ie/about/blue/#:~:text=Paddy%20Ladd%20who%20also%20established,communities%20cherish%20their%20own%20language. 
+The recognized color associated with sign language is blue because it symbolizes how the deal community cherishes sign language. Therefore, we used the color blue and used various different shades associated with it.
+Moreover, since Earth is called the Blue Planet, we are also using the color blue to symbolize the world, since this software is made to be used across the world. 
+
+Typography:
+The color blue appears on every page since it expresses meaningful symbolism to us and the deaf community. 
+Our goal is to be clear, concise, and allow the user to explore the website with ease.
+ We also decided to have different web pages instead of one because we thought having an application on a webpage that contains everything would not give the app its needed emphasis. 
+ Since we took that route, every web page has a footer that contains all the miscellaneous information. 
+ We use Times New Roman, a legible and formal font, making it easy for the user to understand how to use the website. 

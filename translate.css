@@ -1,0 +1,79 @@
+
+ /* Translate Page: Translation option designs*/
+ .typeTranslate 
+ {
+     background-color: DodgerBlue;
+     border: 1rem;
+     margin: 1rem;
+     color: white;
+     padding: 1rem 1rem;
+     font-size: 16px;
+     border-radius: 20px;
+     text-align: center;
+     cursor: pointer;
+ }
+ .typeTranslate:active{
+  background-color: #cbd1d5;
+  color: DodgerBlue;
+ }
+ .recordTranslate 
+ {
+     background-color: DodgerBlue;
+     border: none;
+     color: white;
+     padding: 1rem 1rem;
+     font-size: 16px;
+     border-radius: 20px;
+     cursor: pointer;
+ }
+ .recordTranslate:active { /*Record to Translate colors*/
+  background-color: #cbd1d5;
+  color: #db3434;
+}
+  
+  .typeTranslate:hover { /*Type to Translate colors*/
+    background-color: #cbd1d5;
+    color: DodgerBlue;
+  }
+  .recordTranslate:hover { /*Record to Translate colors*/
+    background-color: #cbd1d5;
+    color: #db3434;
+  }
+ 
+  /* END Translate Page: Translation option designs*/
+
+  .translateBack{
+    background-image: url(mockups/bluetowhite.jpg);
+    background-size: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+ }
+  .Sign-Letter{
+    background-image: url(mockups/SIGNTOALPHA.png);
+    background-size: 30%;
+    background-position-x: right;
+    background-position-y: center;
+    background-repeat: no-repeat;
+  }
+
+  .TranslationButton 
+  {
+      background-color: #cbd1d5;
+      border: none;
+      margin-top: 1rem;
+      color: DodgerBlue;
+      padding: 1rem 1rem;
+      font-size: 16px;
+      border-radius: 20px;
+      cursor: pointer;
+  }
+   
+   .TranslationButton:hover {
+     background-color: #808081;
+     color: DodgerBlue;
+   }
+
+
+
+   /*Record Translation*/
