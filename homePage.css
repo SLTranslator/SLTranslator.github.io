@@ -51,7 +51,7 @@
 #homeBack{
    animation: fadeDownHome 1000ms forwards;
    opacity: 0;
-   background-image: url(/mockups/homeBack4-4.jpg);
+   background-image: url(mockups/homeBack4-4.jpg);
    background-size: 101%;
    height: 100%;
    background-repeat: no-repeat;
