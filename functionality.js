@@ -3,7 +3,7 @@
 function showType(){document.getElementById("Type").style.display = "";}
 function showRecord(){document.getElementById("Record").style.display = "";}*/
 function showTranslation(){
-  alert("Coming soon!")
+  alert("Currently unavailable. Coming soon!")
   document.getElementById("Output").style.display = "";
 } 
 
