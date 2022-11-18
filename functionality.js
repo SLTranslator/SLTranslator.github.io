@@ -13,7 +13,7 @@ function showRecord(){
     var z = document.getElementById("Output")
     if (x.style.display === "none") {
       x.style.display = "block";
-      alert("Allow SLT to access your camera")
+      alert("SLT needs access to your camera")
       y.style.display = "none";
       z.style.display = "none";
     } else {
