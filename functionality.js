@@ -10,12 +10,14 @@ function showRecord(){
     var z = document.getElementById("Output")
     if (x.style.display === "none") {
       x.style.display = "block";
+      alert("Allow SLT to access your camera")
       y.style.display = "none";
       z.style.display = "none";
     } else {
       x.style.display = "none";
     }
 }
+
 function showType(){
     var x = document.getElementById("Type");
     var y = document.getElementById("Record")
