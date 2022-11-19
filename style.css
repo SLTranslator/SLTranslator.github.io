@@ -18,7 +18,6 @@
    top:-30px;
 }
 
-
 html, body{
     font-family: 'Antipasto Pro', sans-serif;
     height: 100%;
@@ -284,17 +283,14 @@ ul {
    
 }
 
-.vision {
-   text-align: center;
-}
-
-.mission {
-   text-align: center;
-}
-
 .team{
    background-image: url(mockups/teampic.png);
    background-size: 100%;
    background-repeat: no-repeat;
    background-position-y: center;
+   text-align: center;
 } 
+
+.team h1{
+   font-size: 200 px;
+}
