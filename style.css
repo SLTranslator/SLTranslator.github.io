@@ -284,6 +284,13 @@ ul {
    
 }
 
+.vision {
+   text-align: center;
+}
+
+.mission {
+   text-align: center;
+}
 
 .team{
    background-image: url(mockups/teampic.png);
