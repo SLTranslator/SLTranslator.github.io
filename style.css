@@ -1,5 +1,3 @@
-
-
 *{
    padding: 0;
    margin: 0;
@@ -287,11 +285,9 @@ ul {
 }
 
 
-
 .team{
    background-image: url(mockups/teampic.png);
    background-size: 100%;
    background-repeat: no-repeat;
    background-position-y: center;
 } 
-
