@@ -289,8 +289,8 @@ ul {
    background-repeat: no-repeat;
    background-position-y: center;
    text-align: center;
-} 
 
-.team h1{
-   font-size: 200 px;
-}
+   padding-top: 110px;
+   padding-right: 400px;
+   padding-left: 400px;
+} 
