@@ -1,7 +1,7 @@
 # SLTranslator.github.io
 GitHub Organization/Repository Links
 https://github.com/SLTranslator
-https://sltranslator.github.io
+https://sltranslator.github.io ##website link
 
 GitHub Accounts for Each Team Member
 David Malek: MalekDavid01
